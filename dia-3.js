@@ -1,4 +1,4 @@
-const entrada = require ('prompt-sync');
+const entrada = require ('prompt-sync')({ sigint: true });
 
 let num1 = parseInt(entrada("Informe um número: "));
 let num2 = parseInt(entrada("Informe outro número: "));

@@ -9,7 +9,7 @@ function calcularMulta(pesoPeixes) {
 
     if (pesoPeixes > limitePeso) {
         excesso = pesoPeixes - limitePeso;
-      multa = excesso * valorMultaPorQuilo;
+        multa = excesso * valorMultaPorQuilo;
     }
 
     return { excesso, multa };

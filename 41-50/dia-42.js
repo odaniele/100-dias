@@ -1,4 +1,4 @@
-const entrada = require ('prompt-sync')({sigint: true});
+const entrada = require ('prompt-sync')({sigint:true});
 
 let quantidadeLitros = parseFloat(entrada('Quantos litros deseja abastecer? '));
 let tipoCombustivel = String(entrada('Qual combustível? A-álcool, G-gasolina: ').toUpperCase());
@@ -29,5 +29,4 @@ let valor = quantidadeLitros * preco;
 let desconto = valor * descontoPercentual;
 let valorFinal = valor - desconto;
 
-console.log(`O valor a ser pago pelo cliente é: R$${valorFinal.toFixed(2)}`);
-
+console.log(`O valor a ser pago é: R$ ${valorFinal.toFixed(2)}`);

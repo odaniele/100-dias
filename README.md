@@ -1,4 +1,4 @@
-<h1> Desafio dos 100 Dias de JavaScript 🚀</h1>
+<h1 align = 'center'> Desafio dos 100 Dias de JavaScript 🚀</h1>
 
 Bem-vindo(a) ao Desafio dos 100 Dias de JavaScript! 
 

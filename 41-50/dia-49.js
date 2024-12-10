@@ -1,9 +1,14 @@
 const entrada = require ('prompt-sync')({sigint:true});
 
-let numero = 1;
+let numerosVertical = 1;
 
-while (numero <= 20) {
-    console.log(numero);
-    numero++;
+while (numerosVertical <= 20) {
+    console.log(numerosVertical);
+    numerosVertical++;
 };
 
+
+for (let i = 1; i <= 20; i++) {
+    process.stdout.write(i + " ");
+}
+console.log(); 

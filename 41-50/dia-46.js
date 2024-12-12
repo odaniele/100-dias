@@ -8,7 +8,7 @@ let nome;
         }
     } while (nome.length <= 3);
 
-    let idade;
+let idade;
     do {
         idade = parseInt(entrada("Digite a idade (entre 0 e 150): "), 10);
         if (isNaN(idade) || idade < 0 || idade > 150) {
@@ -16,7 +16,7 @@ let nome;
         }
     } while (isNaN(idade) || idade < 0 || idade > 150);
 
-    let salario;
+let salario;
     do {
         salario = parseFloat(entrada("Digite o salário (maior que 0): "));
         if (isNaN(salario) || salario <= 0) {
@@ -24,7 +24,7 @@ let nome;
         }
     } while (isNaN(salario) || salario <= 0);
 
-    let sexo;
+let sexo;
     do {
         sexo = entrada("Digite o sexo ('f' ou 'm'): ").toLowerCase();
         if (sexo !== 'f' && sexo !== 'm') {
@@ -32,7 +32,7 @@ let nome;
         }
     } while (sexo !== 'f' && sexo !== 'm');
 
-    let estadoCivil;
+let estadoCivil;
     do {
         estadoCivil = entrada("Digite o estado civil ('s', 'c', 'v', 'd'): ").toLowerCase();
         if (!['s', 'c', 'v', 'd'].includes(estadoCivil)) {

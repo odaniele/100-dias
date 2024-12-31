@@ -1,6 +1,6 @@
 <h2 align = 'center'> 💻 Estrutura sequencial dos exercícios em JavaScript</h2>
 
-✅71º Dia: 43. O cardápio de uma lanchonete é o seguinte:
+✅71º Dia: O cardápio de uma lanchonete é o seguinte:
 
     Especificação   Código  Preço
     Cachorro Quente 100     R$ 1,20
@@ -28,7 +28,7 @@ Faça um programa que calcule e mostre:
     A percentagem de votos nulos sobre o total de votos;
     A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
 
-✅73º Dia:Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
+✅73º Dia: Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
 
     1. Maior e Menor Acerto;
     2. Total de Alunos que utilizaram o sistema;
@@ -83,7 +83,7 @@ Após concluir isto você poderia incrementar o programa permitindo que o profes
     Pior nota: 7.5
     Média: 9,04`
 
-✅76º Dia:Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
+✅76º Dia: Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
     ◦ Exemplo:
 
   `12376489
@@ -112,7 +112,7 @@ Panificadora Pão de Ontem - Tabela de preços
 ...
 50 - R$ 9.00`
 
- ✅80º Dia: O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
+✅80º Dia: O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
     ◦ 
 
 `Lojas Tabajara 

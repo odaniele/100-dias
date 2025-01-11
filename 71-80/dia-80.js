@@ -18,18 +18,18 @@ function caixaRegistradora() {
             produtoCount++;
         }
 
-    console.log(`Total: R$ ${totalCompra.toFixed(2)}`);
+        console.log(`Total: R$ ${totalCompra.toFixed(2)}`);
 
-    let dinheiroCliente = parseFloat(entrada('Dinheiro: R$'));
+        let dinheiroCliente = parseFloat(entrada('Dinheiro: R$'));
 
-    let troco = dinheiroCliente - totalCompra;
-    console.log(`Troco: R$ ${troco.toFixed(2)}`);
+        let troco = dinheiroCliente - totalCompra;
+        console.log(`Troco: R$ ${troco.toFixed(2)}`);
 
-    let continuar = entrada('Deseja registrar outra compra? (sim/não) ').toLowerCase();
+        let continuar = entrada('Deseja registrar outra compra? (sim/não) ').toLowerCase();
 
-        if (continuar !== 'sim') {
-            break;
-        }
+            if (continuar !== 'sim') {
+                break;
+            }
 
     }
 }
